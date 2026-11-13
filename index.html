@@ -14,14 +14,14 @@
 <script type="module">import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithRedirect, getRedirectResult, onAuthStateChanged, signOut as firebaseSignOut } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-auth.js";
 
-// Firebase Web App config for daymark-ef86c.
+// Firebase Web App config for daily-login-webapp.
 const firebaseConfig = {
-  apiKey: "AIzaSyBUc-MtBNshbhLN8wAmu6xpnkDp7jxWCHE",
-  authDomain: "daymark-ef86c.firebaseapp.com",
-  projectId: "daymark-ef86c",
-  storageBucket: "daymark-ef86c.firebasestorage.app",
-  messagingSenderId: "804531957776",
-  appId: "1:804531957776:web:67eb64494a9d6833b69a95"
+  apiKey: "AIzaSyBBBt7L66Om6-8XuQH2GnkhJKR3_DKAoS",
+  authDomain: "daily-login-webapp.firebaseapp.com",
+  projectId: "daily-login-webapp",
+  storageBucket: "daily-login-webapp.firebasestorage.app",
+  messagingSenderId: "346148161529",
+  appId: "1:346148161529:web:09e274f0a9c203a29adf28"
 };
 const firebaseConfigured = !Object.values(firebaseConfig).some(v => String(v).startsWith("YOUR_"));
 const authGate = document.getElementById("authGate");
